@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Kirby_Faverty
+{
+    padding-top: 40px;
+    align-items: center;
+    border-radius: 50%;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+
+
+#main_text {
+    padding-top: 40px;
+    text-align: center;
+}
