@@ -27,5 +27,10 @@ Week #2
 
 Week #3 
 
-    Friday: 
+    Friday: I started on my prjoects page. I feel like this is where the bulk of my
+    information will be. I started with my CS358 project which was a simple language 
+    interp. I think I really like how it turned out. It has a couple of images of what 
+    a potential final project could be, and it also has the link to the repository so
+    if you wanted to fork it and try it out for yourself. I found google really helpful 
+    in telling me about the image carosel. I think it was perfect for this section. 
         
