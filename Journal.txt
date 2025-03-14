@@ -6,7 +6,8 @@ Week #1
     to use CSS or Java on other pages to show how much I have learned in this class. 
     I also added a nav bar. I used the bootstrap navbar that I learned from the previous
     assignment. I also figured out how to deploy to github pages which was actually a little
-    difficult becuase of the pupline and trying to figure that out.
+    difficult becuase of the pupline and trying to figure that out. I ended up using a youtube
+    video that I found online to get more help with figuring it out.
 
 
 Week #2
@@ -16,7 +17,15 @@ Week #2
     talks about me and what I do and other stuff like that. For the new thing 
     that I am going to implement I think I will add a download link to be able to
     download my resume or my ohter mieces of work. I think that I am doing good and
-    making steady progress I am going to work a lot over the weekend. 
+    making steady progress I am going to work a lot over the weekend. I have been using
+    Google a lot to help me out with the CSS and so forth. 
 
     Thursday: 
-    
+    https://stackoverflow.com/questions/2793751/how-can-i-create-download-link-in-html 
+    the website that helped me learning about my download link. 
+
+
+Week #3 
+
+    Friday: 
+        
