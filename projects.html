@@ -11,24 +11,25 @@
       defer
       src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js">
     </script>
+    <script defer src="script.js"></script>
     <title>Projects Page</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <a class="navbar-brand ml-2" href="#">CS463 Final</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse ml-2" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="form.html">Form</a>
+            <a class="nav-link" href="/form.html">Form</a>
           </li>
         </ul>
       </div>
@@ -46,7 +47,7 @@
         </div>
         <section class="project">
             <h2 class="title">CS358 Project</h2>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -63,14 +64,10 @@
                   <img src="Files/answer.png" id="image3" class="d-block w-100" alt="After the program">
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+            </div>
+            <div class="carousel-buttons">
+              <button class="btn btn-primary btn-prev">Prev</button>
+              <button class="btn btn-primary btn-next">Next</button>
             </div>
             <p class="main_text">
               In CS358 I developed a simple interpreter that handles an image class and can combine/rotate images.
@@ -82,18 +79,23 @@
         </section>
         <section class="project">
             <h2 class="title">CS463 HW</h2>
-            <img src="images/cs463_project.jpg" alt="CS463 Project Screenshot" class="project-image">
             <p class="main_text">
               In CS463 Homework, we were tasked with four assignments. The first assignment was an
               accessibility assignment, we were given a website and we were supposed to fix all of
               the errors. We were also tasked with creating a form that would take in user input.
               The next assignment was to 
             </p>
+            <section class="link_projects">
+              <a class="nav-link button" href="/Files/CS486-HW/hw1/01-hello.html">Assignment #1</a> 
+              <a class="nav-link button" href="/Files/CS486-HW/hw2/02-webpage.html">Assignment #2</a> 
+              <a class="nav-link button" href="/index.html">Assignment #3</a> 
+              <a class="nav-link button" href="/index.html">Assignment #4</a> 
+            </section>
         </section>
         <section class="project">
             <h2 class="title">Personal Project</h2>
             <img src="images/personal_project.jpg" alt="Personal Project Screenshot" class="project-image">
-            <p class="project-description">
+            <p class="main_text">
                 In addition to my coursework, I have also worked on personal projects to further enhance my skills.
                 One such project is a personal website that I built from scratch to showcase my portfolio and blog.
                 Below is a screenshot of the website.

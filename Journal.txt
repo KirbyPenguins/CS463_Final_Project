@@ -34,3 +34,11 @@ Week #3
     if you wanted to fork it and try it out for yourself. I found google really helpful 
     in telling me about the image carosel. I think it was perfect for this section. 
         
+
+    Saturday: Today I am going to finish my projects section, I feel pretty good and I 
+    reworked my carosel. I did this because although I like the arrows I continously kept getting contrast
+    contrast errors and that was pretty annoying. I am making good headway with project page, I figured
+    I would have links to each project and since they are html they would open each project. I have 
+    also fixed everything when it comes to errors in my project.html. The only errors I am getting is 
+    because of a download link, however I want to have that download link so I dont really know what to
+    do. I also had to change my nav bar on assignment 2 because I keep getting errors. 
