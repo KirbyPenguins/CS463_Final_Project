@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let section = document.querySelector('#welcome');
 
     let image = document.createElement('img');
-    image.src = '../hw1/images/kirby_faverty.jpg';
+    image.src = 'Files/HW/hw1/images/kirby_faverty.jpg';
     image.alt = 'A picture of myself on the beach';
     image.width = 400;
     image.height = 300;
