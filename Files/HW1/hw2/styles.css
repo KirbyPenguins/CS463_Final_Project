@@ -1,0 +1,277 @@
+/* Add your code here */
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: var(--black);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start; /* Changed from flex-end to flex-start */
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    height: 100%; 
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--white)
+}
+
+nav ul li a:hover{
+    background-color: var(--purple);
+}
+
+
+/* Card 1 */
+
+.card-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+
+.card1{
+    max-width: 400px;
+    width: 100%;
+    border: 3px solid var(--black);
+    padding: 50px;
+}
+
+.card1img{
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.card1-butt{
+    background-color: var(--purple);
+    color: var(--white);
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card1-butt:hover{
+    background-color: var(--black);
+}
+
+.card1Title{
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+
+/* Card 2 */
+
+.card2{
+    max-width: 400px;
+    width: 100%;
+    border: 3px solid var(--black);
+    padding: 50px;
+}
+
+.card2img{
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.card2-butt{
+    background-color: var(--purple);
+    color: var(--white);
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card2-butt:hover{
+    background-color: var(--black);
+}
+
+.card2Title{
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+
+/* Card 3 */
+
+.card3{
+    max-width: 400px;
+    width: 100%;
+    border: 3px solid var(--black);
+    padding: 50px;
+}
+
+.card3img{
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.card3-butt{
+    background-color: var(--purple);
+    color: var(--white);
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card3-butt:hover{
+    background-color: var(--black);
+}
+
+.card3Title{
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+
+
+/* Table */
+table, th, td{
+    border: 1px solid var(--black);
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.tableHeaders{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.TVtable td:first-child{
+    text-align: center;
+    background-color: var(--purple);
+    color: var(--white)
+}
+
+.TVtable tr:not(:first-child):hover{
+    background-color:rgb(250, 162, 31);
+} 
+
+
+/* Sign Up Form */
+
+
+.SignUp{
+    border: 1px solid var(--black);
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+
+.SignUpIntro{
+    font-weight: bold; 
+    margin-bottom: 0px;
+}
+
+
+.SignUpText{
+    filter: brightness(1.5);
+    margin-top: 0px;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+.pronouns{
+    margin-top: 20px;
+    border: none;
+
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+
+.pron{
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 12px; 
+}
+
+/* buttons */
+
+.button-container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.submit{
+    background-color: var(--purple);
+    color: var(--white);
+    width: 50%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.reset{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: #808080;
+}
+
+.main{
+    margin-top: 100px;
+    padding: 0 0.5em;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+

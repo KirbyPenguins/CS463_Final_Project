@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>01 - Hello</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="01-hello.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"/>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  <script defer src="01-hello.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand ml-2" href="#">CS463 Final</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-2" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/form.html">Form</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="container">
+    <h1>Hello</h1>
+    <section>
+      <img class="my_image" src="../hw1/images/Kirby_faverty.jpg" width="500" height="800" alt="Kirby Faverty" />
+      <p class="bio">
+        My name is Kirby Faverty, I am currently
+        studying computer science at Portland State University. I am a
+        Junior and I am excited to learn more about web development in this
+        class. I am from Haines, Alaska and I love to hike and explore the
+        outdoors.
+      </p>
+    </section>
+    <hr />
+    <section>
+      <h1 class="sub-title">About PSU</h1>
+      <h2 class="greeting-message">
+        Welcome to
+        <span class="greeting-italic">The School of Engineering at</span>
+        <span class="greeting-emphasis">Portland State University</span>
+      </h2>
+      <img class="img" src="../hw1/images/psu-eb.jpg" alt="..." />
+      <p class="general-text engineering-building-description">
+        The Engineering Building is a concrete and glass, five-story building
+        located on SW 4th Avenue just south of the Fourth Avenue Building and
+        City of Portland Development Tower. The basement of the Engineering
+        Building pre-dates its construction and is actually part of the Fourth
+        Avenue Building. Designed by the architectural firm, Zimmer Gunsul
+        Frasca, the Engineering Building was completed in early 2006.
+      </p>
+    </section>
+    <section>
+      <h1 class="sub-title">New Student Orientation</h1>
+      <p class="general-text">
+        New Student Orientation is an essential part of your undergraduate
+        college experience, provides a foundation for success, and is
+        <span class="boldfaced-text">required for all incoming undergraduate students.</span>
+        New Student Orientation will provide you with details about campus
+        life, student services, degree requirements, and, upon completion,
+        will provide you with course registration access for your first term.
+      </p>
+      <p class="general-text">
+        View
+        <a href="https://www.pdx.edu/admissions/deadlines#enrollment-confirmation">Enrollment Confirmation Deadlines</a>
+        and other
+        <a href="https://www.pdx.edu/admissions/deadlines">Important Dates</a>
+      </p>
+    </section>
+    <h2 class="sub-title">Application Information</h2>
+    <section class="general-grouped-info">
+      <h3 class="sub-sub-title">Submit Your Application and $60 Application Fee</h3>
+      <p class="general-text">
+        Go to Portland State University's online application system and select
+        Create Account. If you have already started an application, or created
+        one for a past term, select Log In.
+      </p>
+      <p class="general-text">
+        Undergraduate applicants may be eligible for a waiver of their $60
+        admission application fee. Based on the information you provide in
+        your application, we will determine if you are eligible for a fee
+        waiver.
+      </p>
+    </section>
+    <section class="general-grouped-info">
+      <h3 class="sub-sub-title">Submit Transcripts from All Schools Attended</h3>
+      <p class="general-text">
+        You are required to submit individual transcripts from each college or
+        university where you registered for any coursework. Failure to submit
+        individual transcripts from each college or university attended may
+        result in a delayed admission decision. Official transcripts are
+        required from all the schools you've attended, see our official
+        records policy for details.
+      </p>
+      <p class="general-text">
+        Failure to disclose all colleges is a violation of Portland State
+        University's student code of conduct.
+      </p>
+    </section>
+    <div class="general-grouped-info">
+      <h3 class="sub-sub-title">Submit the Free Application for Federal Student Aid (FAFSA)</h3>
+      <p class="general-text">
+        Submission of the FAFSA is not required to receive an admission
+        decision. We encourage students to submit the FAFSA as soon as
+        possible after October 1.
+      </p>
+    </div>
+    <div class="general-grouped-info">
+      <h3 class="sub-sub-title">Check Your Application Status</h3>
+      <p class="general-text">
+        If you have submitted an application to Portland State University, you
+        can log in to PSU's application portal to review the status of your
+        application. You will be notified via email for each document you
+        submit and your admission decision.
+      </p>
+    </div>
+    <section>
+      <h3 class="sub-title">Submit your Information</h3>
+      <form>
+        <label for="name">Name</label> <br>
+        <input type="text" alt="name" id="name" /> <br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" alt="email" id="email" /> <br>
+
+        <label for="region">Region</label> <br>
+        <input type="text" alt="region" id="region" /> <br>
+        <div>
+          For best performance, enter a region closest to your application
+        </div>
+
+        <fieldset class="radio-buttons">
+          <legend>Plan type</legend>
+          <input type="radio" id="basic" name="plan" />
+          <label for="basic">Basic</label>
+          <input type="radio" id="Business" name="plan" />
+          <label for="Business">Business</label>
+          <input type="radio" id="Pro" name="plan" />
+          <label for="Pro">Pro</label>
+        </fieldset>
+        <fieldset class="required fields">
+          <form class="checkboxes">
+            <legend>Included Fields</legend>
+            <input type="checkbox" id="Fields" name="Fields" />
+            <label for="Fields">Title</label>
+
+            <input type="checkbox" id="role" name="Fields" />
+            <label for="role">Role</label>
+
+            <input type="checkbox" id="email_c" name="Fields" />
+            <label for="email_c">Email</label>
+
+            <input type="checkbox" id="company name" name="Fields" />
+            <label for="company name">Company Name</label>
+
+            <input type="checkbox" id="description" name="Fields" />
+            <label for="description">Description</label>
+
+            <input type="checkbox" id="Type" name="Fields" />
+            <label for="Type">Type</label>
+          </form>
+        </fieldset>
+        <button>Create</button>
+        <button>Reset</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

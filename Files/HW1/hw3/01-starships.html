@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>03 - Starships</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <!-- todo: include bootstrap.css file -->
+    <link 
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"/>
+    <script defer src="01-starships.js"></script>
+    <!-- todo: include bootstrap.js file -->
+    <script 
+      defer
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js">
+    </script>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand ml-2" href="#">Homework #3</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse ml-2" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#welcome">Welcome</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#starships">Starships</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#form">Form</a>
+          </li>
+        </ul>
+      </div>
+      </nav>
+      <main>
+      <h1>HW 3</h1>
+      <section id="welcome">
+        <h2>Welcome</h2>
+      </section>
+
+      <section id="starships">
+        <h2>Starships</h2>
+      </section>
+
+      <section id="form">
+        <h2>Form</h2>
+        <form class = "form ml-4" style="border: 1px solid #000; padding: 15px;">
+          <div class="form-group">
+            <h3 class="text-center">Sign Up Form</h3>
+            <p class = "text-center"> Please fill out items in the form below</p>
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name"/>
+          </div>
+
+          <div class="form-group">
+            <label for="username">Enter Your Username</label>
+            <input type="text" class="form-control" id="username"/>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email"/>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="text" class="form-control" id="password"/>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" class="form-control" id="date"/>
+          </div>
+
+            <fieldset class="form-group" style="padding: 10px">
+            <legend class="h5">Preferred Pronouns</legend>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="he-him" name="pronouns" value="he-him"/>
+              <label class="form-check-label" for="he-him">He/Him</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="she-her" name="pronouns" value="she-her"/>
+              <label class="form-check-label" for="she-her">She/Her</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="they-them" name="pronouns" value="they-them"/>
+              <label class="form-check-label" for="they-them">They/Them</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="other" name="pronouns" value="other"/>
+              <label class="form-check-label" for="other">Other</label>
+            </div>
+            </fieldset>
+
+          <div class="row">
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary btn-md btn-block" id="submit">Submit</button>
+            </div>
+            <div class="col-6">
+              <button type="reset" class="btn btn-secondary btn-md btn-block" id="clear">Clear</button>
+            </div>
+          </div>
+        </form>
+
+      </section>
+    </main>
+  </body>
+</html>

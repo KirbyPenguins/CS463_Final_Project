@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>02 - Webpage</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href = "#">CS486 Final Project</a></li>
+          <li><a href = "/index.html">Index</a></li>
+          <li><a href = "/projects.html">Project</a></li>
+          <li><a href = "/form.html">Form</a></li>
+        </ul>
+      </nav>
+    </header>
+  <section class = "main">
+    <div class = "card-container" id = "cards">
+      <div class ="card1">
+        <div class = "card1content">
+          <h1 class = "card1Title"> Card #1 </h1>
+          <img src="https://placecats.com/300/200" alt="A brown Cat" class="card1img">
+            <p class = "card1-desc"> 
+            Cat ipsum dolor sit amet, mew mew. Walk on keyboard while happily
+            ignoring when being called good morning sunshine.Chew iPad power cord destroy couch make muffins, 
+            for that box? i can fit in that box but vommit food and eat it again decide to want 
+            nothing to do with my owner today. 
+          </p>
+          <button class="card1-butt">Click Me</button>
+        </div>
+      </div>
+
+      <div class ="card2">
+        <div class = "card2content">
+          <h1 class = "card2Title"> Card #2 </h1>
+          <img src="https://placecats.com/300/200" alt="A brown Cat" class="card2img">
+          <p class = "card2-desc"> 
+           Cat ipsum dolor sit amet, mew mew. Walk on keyboard while happily
+          ignoring when being called good morning sunshine.Chew iPad power cord destroy couch make muffins, 
+          for that box? i can fit in that box but vommit food and eat it again decide to want 
+          nothing to do with my owner today. 
+          </p>
+          <button class="card2-butt">Click Me</button>
+        </div>
+      </div>  
+
+      <div class ="card3">
+        <div class = "card3content">
+          <h1 class = "card3Title"> Card #3 </h1>
+          <img src="https://placecats.com/300/200" alt="A brown Cat" class="card3img">
+          <p class = "card3-desc"> 
+           Cat ipsum dolor sit amet, mew mew. Walk on keyboard while happily
+          ignoring when being called good morning sunshine.Chew iPad power cord destroy couch make muffins, 
+          for that box? i can fit in that box but vommit food and eat it again decide to want 
+          nothing to do with my owner today. 
+          </p>
+          <button class="card3-butt">Click Me</button>
+        </div>
+      </div>
+    </div>
+
+
+    <table class = "TVtable" id = tvtable style="width: 100%;">
+      <tr class = "tableHeaders">
+        <th>Time / Channels </th>
+        <th>8:00 PM</th>
+        <th>9:00 PM</th>
+        <th>10:00 PM</th>
+      </tr>
+      <tr class = "ABC"> 
+        <td>ABC</td>
+        <td> The Goldbergs </td>
+        <td> Home Economics </td>
+        <td> black-ish</td>
+      </tr>
+
+      <tr class = "CBS"> 
+        <td> CBS</td>
+        <td> Young Sheldon </td>
+        <td> United States of Al </td>
+        <td> Mom </td>
+      </tr>
+
+      <tr class = "NBC"> 
+        <td> NBC </td>
+        <td colspan="3"> Stanley Cup Playoffs </td>
+      </tr>
+
+      <tr class = "Fox"> 
+        <td> Fox </td>
+        <td colspan="2"> Beat Shazam </td>
+        <td colspan="2"> Local Programming</td>
+      </tr>
+    </table>
+
+    <form class = "SignUp" id = "signup">
+      <h2 class = "SignUpIntro"> Sign Up Form</h2>
+      <p class = "SignUpText"> Fill up the items in the form below. </p>
+
+      <label class="bold" for = name> Name: </label>
+      <input type = "text" id = "name" name = name placeholder="Enter Full Name">
+
+      <label class = "bold" for = username> Username: </label>
+      <input type = "text" id = "username" name = "username" placeholder="Username">
+      
+      <label class = "bold" for = email> Email: </label>
+      <input type = "email" id = "email" name = "email" placeholder="email@pdx.edu">
+
+      <label class = "bold" for = Date> Date: </label>
+      <input type="date" id="Date" name = "date">
+      
+      <fieldset class = "pronouns">
+        <legend class="bold"> Prefered Pronouns: </legend>
+
+        <input type = "radio" id = "he/him" name = "pronouns">
+        <label class = "pron" for ="he/him">He/Him</label> <br>
+
+        <input type = "radio" id = "she/her" name = "pronouns">
+        <label class = "pron" for ="she/her">She/Her</label><br>
+
+        <input type = "radio" id = "they/them" name = "pronouns">
+        <label class = "pron" for = "they/them">They/Them</label> <br>
+
+        <input type = "radio" id = "preferNotToSay" name = "pronouns">
+        <label class = "pron" for = "preferNotToSay"> I prefer not to say</label> <br>
+
+
+        <div class = "button-container">
+        <button class = "submit"> Submit </button>
+        <button class = "reset"> Reset </button>
+        </div>
+        
+      </fieldset>
+
+    </form>
+
+    </section>
+  </body>
+</html>
