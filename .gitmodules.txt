@@ -1,4 +1,0 @@
-[submodule "Files/CS486-HW"]
-    path = Files/CS486-HW
-    url = https://github.com/YourUsername/CS486-HW.git
-
