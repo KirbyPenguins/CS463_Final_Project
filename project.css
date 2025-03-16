@@ -44,7 +44,8 @@ main {
     margin-top: 10px;
 }
 
-.carousel-buttons .btn {
+.carousel-buttons .btn,
+.nav-link_button {
     margin: 0 5px;
     display: inline-block;
     padding: 10px 20px;
@@ -57,6 +58,12 @@ main {
     text-decoration: none;
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link_projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 #image1 {

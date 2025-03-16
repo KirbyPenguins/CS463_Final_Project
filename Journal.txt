@@ -42,3 +42,8 @@ Week #3
     also fixed everything when it comes to errors in my project.html. The only errors I am getting is 
     because of a download link, however I want to have that download link so I dont really know what to
     do. I also had to change my nav bar on assignment 2 because I keep getting errors. 
+
+    Sunday: I am really liking how everything is coming together I think that I may add a little more
+    things to my project.html. I finished adding buttons and styling them for all of my projects and 
+    assignments. I am going to look over the assignment instructions to see if I should add more because
+    I can always add more here. 
