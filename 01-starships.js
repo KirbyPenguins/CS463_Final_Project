@@ -78,7 +78,7 @@ const createSpaceshipComponent = (spaceship) => {
 
   const name = document.createElement('p');
   name.textContent = spaceship.name;
-  name.style.fontWeight = 'bold'; // Bold the name
+  name.style.fontWeight = 'bold'; 
 
   const cost = document.createElement('p');
   cost.textContent = `Cost: ${spaceship.cost_in_credits} credits`;
