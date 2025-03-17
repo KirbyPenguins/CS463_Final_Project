@@ -11,6 +11,7 @@
       defer
       src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js">
     </script>
+    <script defer src="form-handler.js"></script>
     <title>Form Page</title>
 </head>
 <body>
@@ -35,16 +36,60 @@
     </nav>
     <main>
         <h1>Contact Me</h1>
-        <form>
-          <p class="form-main">
-            Please fill out this form if you are interested in knowing more.
-            My email is kfaverty@pdx.edu. I will get back to you as soon as possible.
+          <p id="main_text">
+            Please fill out this form if you are interested in knowing more. If you have any
+            questions or conerns my email is kfaverty@pdx.edu. I will get back to you as soon 
+            as possible.
           </p>
-          <form class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" class="form-control" id="name" name="name" required>
-          </form>
-        </form>
+          <section id="form">
+            <form class = "form ml-4" style="border: 1px solid #000; padding: 15px;">
+              <div class="form-group">
+                <h3 class="text-center">Sign Up Form</h3>
+                <p class = "text-center"> Please fill out items in the form below</p>
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name"/>
+              </div>
+    
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email"/>
+              </div>
+    
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" class="form-control" id="date"/>
+              </div>
+    
+                <fieldset class="form-group" style="padding: 10px">
+                <legend class="h5">Preferred Pronouns</legend>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="he-him" name="pronouns" value="he-him"/>
+                  <label class="form-check-label" for="he-him">He/Him</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="she-her" name="pronouns" value="she-her"/>
+                  <label class="form-check-label" for="she-her">She/Her</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="they-them" name="pronouns" value="they-them"/>
+                  <label class="form-check-label" for="they-them">They/Them</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="other" name="pronouns" value="other"/>
+                  <label class="form-check-label" for="other">Other</label>
+                </div>
+                </fieldset>
+    
+              <div class="row">
+                <div class="col-6">
+                  <button type="submit" class="btn btn-primary btn-md btn-block" id="submit">Submit</button>
+                </div>
+                <div class="col-6">
+                  <button type="reset" class="btn btn-secondary btn-md btn-block" id="clear">Clear</button>
+                </div>
+              </div>
+            </form>
+    
     </main>
 </body>
 </html>

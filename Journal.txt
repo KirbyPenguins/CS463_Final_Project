@@ -22,7 +22,8 @@ Week #2
 
     Thursday: 
     https://stackoverflow.com/questions/2793751/how-can-i-create-download-link-in-html 
-    the website that helped me learning about my download link. 
+    the website that helped me learning about my download link. I will probably also want to 
+    add a carosel since this is something new that I learned however I is the same principle. 
 
 
 Week #3 
@@ -46,4 +47,12 @@ Week #3
     Sunday: I am really liking how everything is coming together I think that I may add a little more
     things to my project.html. I finished adding buttons and styling them for all of my projects and 
     assignments. I am going to look over the assignment instructions to see if I should add more because
-    I can always add more here. 
+    I can always add more here. My welcom page. 
+
+
+    Monday: I am almost finished up with everything and I am pretty happy with how everythign turnued out.
+    I just added being able to handle input from my form with javascript. In the future I may want to add a 
+    path where that information will be stored however I think that this is ample for everything. I am planning
+    on replacing my link to my other stuff to more of my skills section. I think I will add my resume skills to 
+    this section just to talk a little about myself and stuff that I have done.
+    

@@ -5,7 +5,7 @@ nav{
     left: 0px;
     height: 60px;
     width: 100%;
-    background-color: var(--black);
+    background-color:  #333;
 }
 
 nav ul {
