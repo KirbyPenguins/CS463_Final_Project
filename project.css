@@ -45,7 +45,7 @@ main {
 }
 
 .carousel-buttons .btn,
-.nav-link_button {
+.nav-link_button, .other_link {
     margin: 0 5px;
     display: inline-block;
     padding: 10px 20px;
