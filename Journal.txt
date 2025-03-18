@@ -50,9 +50,15 @@ Week #3
     I can always add more here. My welcom page. 
 
 
-    Monday: I am almost finished up with everything and I am pretty happy with how everythign turnued out.
+    Monday: I am almost finished up with everything and I am pretty happy with how everything turnued out.
     I just added being able to handle input from my form with javascript. In the future I may want to add a 
     path where that information will be stored however I think that this is ample for everything. I am planning
     on replacing my link to my other stuff to more of my skills section. I think I will add my resume skills to 
     this section just to talk a little about myself and stuff that I have done.
+
+    Tuesday: I created the readme and then I finished up everything to make sure all of the accesiability checks are
+    good and that I am happy with everything. I am really happy how everything turned out and all I have to do now 
+    is make my video! I it is important to note that one of my pictures does not actually show up and only shows as blank.
+    This is on assignemnt 3 and I will fix it I just figured that since it is on my assignment side it does not reflect my 
+    grade on the Final.
     
