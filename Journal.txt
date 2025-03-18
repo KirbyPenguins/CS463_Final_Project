@@ -21,7 +21,6 @@ Week #2
     Google a lot to help me out with the CSS and so forth. 
 
     Thursday: 
-    https://stackoverflow.com/questions/2793751/how-can-i-create-download-link-in-html 
     the website that helped me learning about my download link. I will probably also want to 
     add a carosel since this is something new that I learned however I is the same principle. 
 

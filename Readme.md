@@ -22,3 +22,14 @@ download my resume and the other that will download my analysis report. I get a 
 one of my Resume download link, however it just says make sure that people understand that this is
 actually a download link. Since I clearly state that it is I think that I do not have to fix this
 warning. 
+
+
+All of my sources:
+https://www.w3schools.com/howto/howto_js_slideshow.asp 
+https://stackoverflow.com/questions/2793751/how-can-i-create-download-link-in-html  
+https://www.w3schools.com/html/html_forms.asp 
+https://www.w3schools.com/css/ 
+https://www.w3schools.com/js/ 
+https://stackoverflow.com/questions/46732637/best-way-to-handle-clicks-on-buttons-in-javascript-vanilla 
+
+
